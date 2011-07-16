@@ -1,0 +1,16 @@
+The PeerIndex Score is the measurement of your online social capital
+
+More about PeerIndex can be found at www.peerindex.net 
+
+NOTE: Before considering the use of PeerIndex you must read the following terms
+http://dev.peerindex.net/terms
+
+You will need an API key to use this, and the API key can be found at
+http://dev.peerindex.net/#get_apikey
+
+
+Usage:
+
+Get the Peer Index for a user
+$peerindex = new PeerIndex;
+$peerindex->getUserScore('aaronott');
